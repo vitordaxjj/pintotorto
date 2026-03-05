@@ -1,0 +1,36 @@
+body{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+font-family: arial, sans-serif;
+}
+
+.card{
+background-color: white;
+width: 300px;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+width: 100px;
+border-radius: 50%;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056B3;
+}
